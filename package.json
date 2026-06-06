@@ -1,0 +1,15 @@
+{
+  "name": "job-portal",
+  "version": "1.0.0",
+  "description": "MERN Job Portal - Naukri/LinkedIn Clone",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "seed": "npm run seed --prefix server"
+  },
+  "keywords": ["mern", "job-portal", "react", "mongodb"],
+  "author": "",
+  "license": "MIT"
+}
