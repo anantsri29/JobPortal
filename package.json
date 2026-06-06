@@ -7,9 +7,15 @@
     "dev:server": "npm run dev --prefix server",
     "dev:client": "npm run dev --prefix client",
     "build": "npm run build --prefix client",
-    "seed": "npm run seed --prefix server"
+    "seed": "npm run seed --prefix server",
+    "auto-sync": "node git-auto-sync.js"
   },
-  "keywords": ["mern", "job-portal", "react", "mongodb"],
+  "keywords": [
+    "mern",
+    "job-portal",
+    "react",
+    "mongodb"
+  ],
   "author": "",
   "license": "MIT"
 }
